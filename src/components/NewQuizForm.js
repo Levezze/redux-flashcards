@@ -34,6 +34,15 @@ export default function NewQuizForm() {
       name: name, 
       topicId: topicId, 
       cardIds: cardIds
+      }),
+    );
+
+    dispatch(
+      addQuizId({
+      id: quizId, 
+      name: name, 
+      topicId: topicId, 
+      cardIds: cardIds
       })
     );
 
